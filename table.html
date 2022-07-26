@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+    <h1 align="center">Table</h1>
+    <table border="1"  width="100%" cellpadding="10" cellspacing="0">
+        <thead bgcolor="yellow">
+            <tr>
+                <th colspan="2">Employee Details</th>
+                <th colspan="4">Personal Details</th>
+            </tr>
+            <tr>
+                <th>Sr No</th>
+                <th>Name</th>
+                <th>Addresh</th>
+                <th>Mobile No</th>
+                <th>city</th>
+                <th>state</th>
+            </tr>
+        </thead>
+        <tbody bgcolor="sky blue">
+        <tr>
+            <td>1</td>
+            <td>Gaurang</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>6657898734</td>
+            <td>surat</td>
+            <td rowspan="4">Gujarat</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jay</td>
+            <td>Lorem ipsum dolor sit amet consectetur.</td>
+            <td>7778867654</td>
+            <td>Bharuch</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ajay</td>
+            <td>Lorem ipsum dolor sit amet consectetur.</td>
+            <td>6678831236</td>
+            <td rowspan="2">surat</td>
+            <!-- <td>Gujarat</td> -->
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>ram</td>
+            <td>Lorem ipsum dolor sit amet consectetur.</td>
+            <td>98765998765</td>
+            <!-- <td>Gujarat</td> -->
+        </tr>
+    </tbody>
+    <tfoot bgcolor="red">
+        <tr>
+            <td colspan="6">Total Emp=4</td>
+        </tr>
+    </tfoot>
+    </table>
+</body>
+
+</html>
